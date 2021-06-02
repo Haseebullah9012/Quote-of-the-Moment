@@ -1,23 +1,15 @@
 import random
 
-def primary():
+def primary():  
   
-  print("Here are the Quotes!")
+  print("Here is the Quote of the Moment! ")
 
-  f = open("quotes.txt")
-  quotes = f.readlines()
-  f.close()
-
+  quotes = open("quotes.txt").readlines()
+  open("quotes.txt").close()
+  
   last = len(quotes) - 1 #No. of Lines in Quotes File   
   
-  print(
-    quotes[random.randint(0, last)],
-    quotes[random.randint(0, last)],
-    quotes[random.randint(0, last)],
-    quotes[random.randint(0, last)],
-    quotes[random.randint(0, last)],
-    quotes[random.randint(0, last)]
-    )
+  print(" ", quotes[random.randint(0, last)])
 
 if __name__== "__main__":
   primary()

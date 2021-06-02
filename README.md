@@ -1,17 +1,6 @@
-# Let's Write a Python Quote Bot!
+# Quote of the Moment!
 
-This repository will get you started with building a quote bot in Python. It's meant to be used along with the [Learning Lab](https://lab.github.com) intro to Python.
+Run the Code `get-quote.py`, and it Randomly gives you a Quote. 
+All the Quotes are stored in the File `Quotes.txt`. 
 
-When complete, you'll be able to grab random quotes from the command line, like this:
-
-> **$** python get-quote.py
-> 
-> Keep it logically awesome
-> 
-> **$** python get-quote.py
-> 
-> Speak like a human
-
-## Start the Tutorial
-
-You can find your next step in [this repo's issues](../../issues/)!
+:+1:
